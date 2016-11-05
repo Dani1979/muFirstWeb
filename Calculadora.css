@@ -1,0 +1,54 @@
+#marco {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 79px 79px 79px 79px;
+  -moz-border-radius: 79px 79px 79px 79px;
+  -webkit-border-radius: 79px 79px 79px 79px;
+  border: 1px dashed black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.cabecera, .pie{
+  height: flex;
+  width: flex;
+  border: 2px dashed #ffffff;
+  padding: 10px;
+  margin:10px;
+  background: #ffffff;
+  text-align: center;
+  font-family: 'Kaushan Script';
+  font-size: xx-large;
+  text-align: center;
+  color: black;
+  font-size: large;
+}
+/*aspectos generales: bordes y color de fondo de calculadora*/
+.calculadora {
+  width: 90% ;text-align: center;
+  background-color: #F2F2F2;
+  margin: 0 auto;
+  padding: 25px
+}
+/*pantalla de visualización: bordes, posición, color de fondo, estilo letra.*/
+#textoPantalla
+{
+  width: 80%; border: 2px black solid; text-align: right;
+  margin: 0 auto;
+  padding: 0px 5px;
+  background-color: #FFFFFF; font-family: "courier new";
+  overflow: hidden;
+  }
+
+/*botones normales: anchura y margen*/
+.calculadora [type=button] { width: 35px; padding: 0;  }
+/*botones especiales*/
+.calculadora input.largo { color: red; width: 60px; }
+
+h3{
+  font-size: medium;
+  color: black;
+}
